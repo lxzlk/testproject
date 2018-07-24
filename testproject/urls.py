@@ -19,5 +19,6 @@ from django.urls import path
 from sign import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'index/$', views.index)
+    url(r'index/$', views.index),
+    url(r'login_action/$', views.login_action)
 ]
